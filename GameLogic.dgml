@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="BuyACar" Bounds="-105.774370662591,-387.523991889712,67.98,25.96" Label="Buy a car" />
+    <Node Id="BuyAHouse" Bounds="-7.79437066259113,-387.523991889712,84.1366666666667,25.96" Label="Buy a house" />
+    <Node Id="BuyAnOffice" Bounds="-338.674057569927,-392.028551026643,88.2166666666667,25.96" Label="Buy an office" />
+    <Node Id="CancelAProject" Bounds="-389.952796794565,-150.868752719515,104.783333333333,25.96" Label="Cancel a project" />
+    <Node Id="ChangeProfilOrBusinessPicture" Bounds="-105.774371527256,-275.603791889712,194.543333333333,25.96" Label="Change profil or business picture" />
+    <Node Id="ChangeSettings" Bounds="-30.6695442708335,-152.660249409243,105.106666666667,25.96" Label="Change settings" />
+    <Node Id="Character" Bounds="-105.774366797032,-331.563891889712,149.123333333333,25.96" Label="See the character details" />
+    <Node Id="Character1" Bounds="-125.774371527256,-427.524091889712,234.543333333333,197.8804" Group="Expanded" Label="Character" />
+    <Node Id="ChooseAProject" Category="Category10" Bounds="-255.169463461232,-150.868752719515,109.38,25.96" Label="Choose a project" />
+    <Node Id="ChooseEmployeesForAProject" Bounds="-389.95281719048,-38.9485527195146,187.97,25.96" Label="Choose employees for a project" />
+    <Node Id="CompleteAchievement" Bounds="217.643887674022,-63.4093142964668,141.78,25.96" Label="Complete achievement" />
+    <Node Id="Employees" Bounds="160.492519985439,-403.209890645193,93.94,25.96" Label="Change salary" />
+    <Node Id="Employees1" Bounds="140.494344221628,-443.210052967947,263.293356933594,197.8804" Group="Expanded" Label="Employees" LayoutSettings="TopToBottom" />
+    <Node Id="Finances" Bounds="-95.7894634612315,-76.7000494092432,263.433333333333,85.9602" Group="Expanded" UseManualLocation="True" />
+    <Node Id="FireEmployees" Bounds="284.43253605803,-403.209875389456,99.3533333333334,25.96" Label="Fire Employees" />
+    <Node Id="Game" Bounds="-429.95281719048,-483.210216823323,891.451310984294,512.470467414079" Group="Expanded" UseManualLocation="True" />
+    <Node Id="HireEmployees" Category="Category10" Bounds="160.492520188889,-347.249868656932,102.013333333333,25.96" Label="Hire Employees" />
+    <Node Id="Office" Bounds="-358.678749938655,-432.029196470767,200.06333984375,197.8804" Group="Expanded" UseManualLocation="True" />
+    <Node Id="Projects" Bounds="-409.95281719048,-190.868852719515,284.163353729248,197.8804" Group="Expanded" Label="Projects" LayoutSettings="TopToBottom" />
+    <Node Id="Receive&amp;LoseMoney" Bounds="217.643869872102,-119.369414296467,136.863333333333,25.96" Label="Receive &amp; lose money" />
+    <Node Id="ReceiveXp" Bounds="217.6438791291,-175.329563598633,75.7,25.96" Label="Receive xp" />
+    <Node Id="SeeAllEmployees" Category="Category2" Bounds="160.49251245777,-291.289877180144,114.476666666667,25.96" Label="See all employees" />
+    <Node Id="SeeTheCurrentOffice" Bounds="-338.674049838807,-336.068529053987,133.003333333333,25.96" Label="See the current office" />
+    <Node Id="SeeTheMonthlyExpansesAndIncome" Bounds="-75.7894634612315,-36.6999494092432,223.433333333333,25.96" Label="See the monthly expenses and income" />
+    <Node Id="Settings" Bounds="-50.6695442708335,-192.660349409243,145.106666666667,85.9602" Group="Expanded" Label="Settings" />
+    <Node Id="TimeChanging" Category="Category2" Bounds="323.34516046048,-175.329514296467,98.1533333333333,25.96" Label="Time changing" />
+    <Node Id="UpgradeTheCurrentOffice" Bounds="-338.67405105951,-280.108545228303,160.063333333333,25.96" Label="Upgrade the current office" />
+    <Node Id="ViewAllActiveProjects" Bounds="-389.952792471242,-94.9086527195145,139.88,25.96" Label="View all active projects" />
+    <Node Id="XP&amp;$&amp;Time" Bounds="197.643869872102,-215.329663598633,243.854623921712,197.880449302166" Group="Expanded" Label="XP x Money x Time" />
+  </Nodes>
+  <Links>
+    <Link Source="Character1" Target="BuyACar" Category="Contains" />
+    <Link Source="Character1" Target="BuyAHouse" Category="Contains" />
+    <Link Source="Character1" Target="ChangeProfilOrBusinessPicture" Category="Contains" />
+    <Link Source="Character1" Target="Character" Category="Contains" />
+    <Link Source="Employees1" Target="Employees" Category="Contains" />
+    <Link Source="Employees1" Target="FireEmployees" Category="Contains" />
+    <Link Source="Employees1" Target="HireEmployees" Category="Contains" />
+    <Link Source="Employees1" Target="SeeAllEmployees" Category="Contains" />
+    <Link Source="Finances" Target="SeeTheMonthlyExpansesAndIncome" Category="Contains" />
+    <Link Source="Game" Target="Character1" Category="Contains" />
+    <Link Source="Game" Target="Employees1" Category="Contains" />
+    <Link Source="Game" Target="Finances" Category="Contains" />
+    <Link Source="Game" Target="Office" Category="Contains" />
+    <Link Source="Game" Target="Projects" Category="Contains" />
+    <Link Source="Game" Target="Settings" Category="Contains" />
+    <Link Source="Game" Target="XP&amp;$&amp;Time" Category="Contains" />
+    <Link Source="Office" Target="BuyAnOffice" Category="Contains" />
+    <Link Source="Office" Target="SeeTheCurrentOffice" Category="Contains" />
+    <Link Source="Office" Target="UpgradeTheCurrentOffice" Category="Contains" />
+    <Link Source="Projects" Target="CancelAProject" Category="Contains" />
+    <Link Source="Projects" Target="ChooseAProject" Category="Contains" />
+    <Link Source="Projects" Target="ChooseEmployeesForAProject" Category="Contains" />
+    <Link Source="Projects" Target="ViewAllActiveProjects" Category="Contains" />
+    <Link Source="Settings" Target="ChangeSettings" Category="Contains" />
+    <Link Source="XP&amp;$&amp;Time" Target="CompleteAchievement" Category="Contains" />
+    <Link Source="XP&amp;$&amp;Time" Target="Receive&amp;LoseMoney" Category="Contains" />
+    <Link Source="XP&amp;$&amp;Time" Target="ReceiveXp" Category="Contains" />
+    <Link Source="XP&amp;$&amp;Time" Target="TimeChanging" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="Category10" Label="Catégorie 10" Background="#FF672878" IsTag="True" />
+    <Category Id="Category2" Label="Catégorie 2" Background="#FF339933" IsTag="True" />
+    <Category Id="Contains" Label="Contient" Description="Si la source de la liaison contient ou non l'objet cible" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contenu par" IsContainment="True" OutgoingActionLabel="Contient" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Arrière-plan" Description="Couleur d'arrière-plan" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="Groupe" Description="Affiche le nœud en tant que groupe" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Étiquette" Description="Étiquette affichable d'un objet pouvant être annoté" DataType="System.String" />
+    <Property Id="LayoutSettings" DataType="Microsoft.VisualStudio.Diagrams.View.GroupLayoutStyle" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Catégorie 5" ValueLabel="A la catégorie">
+      <Condition Expression="HasCategory('Category5')" />
+      <Setter Property="Background" Value="#FF9B4F96" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Catégorie 2" ValueLabel="A la catégorie">
+      <Condition Expression="HasCategory('Category2')" />
+      <Setter Property="Background" Value="#FF339933" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Catégorie 10" ValueLabel="A la catégorie">
+      <Condition Expression="HasCategory('Category10')" />
+      <Setter Property="Background" Value="#FF672878" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Catégorie 7" ValueLabel="A la catégorie">
+      <Condition Expression="HasCategory('Category7')" />
+      <Setter Property="Background" Value="#FF347A30" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Catégorie 8" ValueLabel="A la catégorie">
+      <Condition Expression="HasCategory('Category8')" />
+      <Setter Property="Background" Value="#FF44CCCC" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Catégorie 6" ValueLabel="A la catégorie">
+      <Condition Expression="HasCategory('Category6')" />
+      <Setter Property="Background" Value="#FFA1260D" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Catégorie 1" ValueLabel="A la catégorie">
+      <Condition Expression="HasCategory('Category1')" />
+      <Setter Property="Background" Value="#FFE51400" />
+    </Style>
+  </Styles>
+</DirectedGraph>

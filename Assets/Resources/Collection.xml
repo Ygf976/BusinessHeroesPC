@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Collection>
+  <Saves>
+    <Save id="0">
+      <Lastname>Giry</Lastname>
+      <Firstname>Yann</Firstname>
+      <ProfilPicture>default-picture.png</ProfilPicture>
+      <BusinessType>Website</BusinessType>
+      <BusinessName>Webix</BusinessName>
+      <BusinessSlogan>Always here for you</BusinessSlogan>
+      <BusinessLogo>default-logo.png</BusinessLogo>
+      <Year>2016</Year>
+      <Month>12</Month>
+      <Day>02</Day>
+      <Skills>
+        <Skill-1>0</Skill-1>
+        <Skill-2>0</Skill-2>
+        <Skill-3>0</Skill-3>
+      </Skills>
+      <Employees>
+        <Employee id="0">
+          <Lastname>Dupont</Lastname>
+          <Firstname>Pierre</Firstname>
+          <Age>28</Age>
+          <Job>Manager</Job>
+          <Salary>2000</Salary>
+          <Skill-1>0</Skill-1>
+          <Skill-2>0</Skill-2>
+          <Skill-3>0</Skill-3>
+        </Employee>
+      </Employees>
+      <Projects>
+        <Project id="0">
+          <Client>None</Client>
+          <ClientPicture>None</ClientPicture>
+          <Details>None</Details>
+          <AwardMoney>0</AwardMoney>
+          <AwardXp>0</AwardXp>
+          <SizeHours>0</SizeHours>
+          <Deadline>0</Deadline>
+          <StartingEvent id="0">
+              <Timer>0</Timer>
+              <Effect>Test</Effect>
+              <Number>0</Number>
+          </StartingEvent>
+          <Active>0</Active>
+          <ProgressStatus>0</ProgressStatus>
+          <Progress>0</Progress>
+          <Manager>None</Manager>
+          <Employee-1>None</Employee-1>
+          <Employee-2>None</Employee-2>
+          <Employee-3>None</Employee-3>
+          <Employee-4>None</Employee-4>
+          <Employee-5>None</Employee-5>
+          <Events>
+            <Event id="0">
+              <Timer>0</Timer>
+              <Effect>Test</Effect>
+              <Number>0</Number>
+            </Event>
+          </Events>
+        </Project>
+      </Projects>
+    </Save>
+  </Saves>
+  <Pictures>
+    <Picture>
+      <path>star.png</path>
+      <type>profil</type>
+    </Picture>
+  </Pictures>
+  <ProjectsExample>
+    
+  </ProjectsExample>
+</Collection>
